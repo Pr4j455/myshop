@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --warnapertama: #f49c5a;
+  --warnakedua: black;
+  --warnatextputih: white;
+}
+.header {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: var(--warnatextputih);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  color: white;
+  text-decoration: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar .logo {
+  font-family: "Dancing Script", cursive;
+  color: var(--warnapertama);
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+
+.hero-content img {
+  position: absolute;
+  top: 230px;
+  left: 200px;
+}
+.hero {
+  background-image: url(img/home-bg.jpg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.hero-content a {
+  color: black;
+  text-decoration: #f49c5a;
+  background-color: #f49c5a;
+}
+
+.about-image {
+  /* background-color: brown; */
+  height: 100vh;
+  width: 50vw;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.about-content {
+  /* background-color: black; */
+  height: 100vh;
+  width: 30vw;
+  padding-right: 10%;
+  padding-top: 20%;
+  color: white;
+  position: relative;
+}
+
+.about {
+  display: flex;
+  background-color: black;
+}
+
+.about-image img {
+  width: 550px;
+}
+
+.about-content h1 {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+button {
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  background-color: #f49c5a;
+  color: black;
+  border-radius: 10px;
+}
+
+.about-content img {
+  width: 100px;
+  position: absolute;
+  top: 600px;
+  left: 300px;
+}
